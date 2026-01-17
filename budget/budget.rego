@@ -6,5 +6,5 @@ default allow := false
 
 allow if {
 	name == input.name
-	input.cost <= data.budget
+	input.cost <= data.client.mobileware.budget
 }
