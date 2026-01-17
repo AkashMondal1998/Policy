@@ -4,6 +4,6 @@ name := "Akash"
 
 default allow := false
 
-allow if {
+allow {
 	name == input.name
 }
